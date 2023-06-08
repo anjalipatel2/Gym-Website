@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lato:ital,wght@0,100;1,100&family=Open+Sans:wght@300&family=Roboto:ital,wght@0,100;0,300;1,300&family=Source+Code+Pro:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+.Container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(ex1.jpeg);
+    background-size: cover;
+    color: #fff;
+    background-position: center
+}
+
+.Container nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+}
+
+.Container nav .brand {
+    font-size: 1.7rem;
+    font-weight: bold
+}
+
+.Container nav .brand span {
+    color: rgb(208, 32, 32);
+}
+
+.Container nav ul li {
+    display: inline-block;
+    padding-left: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.Container nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Container nav ul li a:hover {
+    color: #ea1538;
+    transition: .5s;
+}
+
+.Container nav button {
+    width: 150px;
+    padding: 8px 0;
+    background-color: #ea1538;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Container nav button:hover {
+    transform: scale(1.1);            
+    transition: .5s;
+}
+.Container .content{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+}
+.Container  .content span {
+    color: rgb(208, 32, 32);
+}
+
+.Container .content h2{
+    margin: 10px 0;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+.Container .content p{
+font-size: 1.3rem;
+font-weight: bold;
+}
+
